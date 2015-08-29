@@ -1,6 +1,6 @@
 <h1>StaticPages_home</h1>
 
-<h3>Fork this project as a starter template for basic home page, partials, and bootstrap.<h3>
+<h3>Fork this project as a starter template for basic home page, partials, and bootstrap.</h3>
 
 <p>This template includes a StaticPages controller with a home.html.erb view.</p>
 
