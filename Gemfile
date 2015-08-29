@@ -8,6 +8,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'sqlite3'
+gem 'rails_12factor', group: :production
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 
@@ -15,9 +17,4 @@ group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
-end
-
-group :production do
-  gem 'pg',             '0.17.1'
-  gem 'rails_12factor', '0.0.2'
 end
